@@ -1,13 +1,9 @@
         {% extends 'base.html' %}
-        
         {% block title %}
-        
         {{ title }}
-
         {% endblock %}
-
         {% block content %}
-        <h1>{{ text }}</h1>
+        <h1> Последние обновления на сайте </h1>
         <article>
           {% for post in posts %}
           <ul>
