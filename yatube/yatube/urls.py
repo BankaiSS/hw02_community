@@ -21,5 +21,4 @@ urlpatterns = [
     # импорт правил из приложения posts
     path('admin/', admin.site.urls),
     path('', include('posts.urls', namespace='posts'))
-    
 ]
