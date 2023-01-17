@@ -1,4 +1,5 @@
 from django.shortcuts import get_object_or_404, render
+
 from yatube.settings import NUMBER_OF_POSTS
 
 from .models import Group, Post
